@@ -1,0 +1,791 @@
+# Copyright (C) 2023 OceanWP
+# This file is distributed under the same license as the Ocean Popup Login plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ocean Popup Login 2.1.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ocean-popup-login\n"
+"Last-Translator: OceanWP <support@oceanwp.org>\n"
+"Language-Team: OceanWP <support@oceanwp.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-01-10T09:59:19+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: ocean-popup-login\n"
+
+#. Plugin Name of the plugin
+msgid "Ocean Popup Login"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://oceanwp.org/extension/ocean-popup-login/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add user login, registration and lost password forms as a popup to your website. Simple, effective and out of the box solution."
+msgstr ""
+
+#. Author of the plugin
+msgid "OceanWP"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://oceanwp.org/"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:199
+#: build/ocean-popup-login/ocean-popup-login.php:201
+#: build/ocean-popup-login/ocean-popup-login.php:203
+#: build/ocean-popup-login/ocean-popup-login.php:446
+#: build/ocean-popup-login/template/popup.php:34
+#: ocean-popup-login.php:199
+#: ocean-popup-login.php:201
+#: ocean-popup-login.php:203
+#: ocean-popup-login.php:446
+#: template/popup.php:34
+msgid "Log in"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:200
+#: build/ocean-popup-login/ocean-popup-login.php:202
+#: build/ocean-popup-login/ocean-popup-login.php:204
+#: build/ocean-popup-login/ocean-popup-login.php:471
+#: build/ocean-popup-login/template/popup.php:36
+#: ocean-popup-login.php:200
+#: ocean-popup-login.php:202
+#: ocean-popup-login.php:204
+#: ocean-popup-login.php:471
+#: template/popup.php:36
+msgid "Become a part of our community!"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:269
+#: build/ocean-popup-login/ocean-popup-login.php:3005
+#: ocean-popup-login.php:269
+#: ocean-popup-login.php:3005
+msgid "Popup Login"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:291
+#: ocean-popup-login.php:291
+msgid "Position"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:292
+#: ocean-popup-login.php:292
+msgid "If you choose Manual, check this documentation: https://docs.oceanwp.org/article/499-how-to-show-popup-login-link"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:297
+#: ocean-popup-login.php:297
+msgid "Menu"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:298
+#: ocean-popup-login.php:298
+msgid "Manual"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:318
+#: ocean-popup-login.php:318
+msgid "Logged In"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:319
+#: ocean-popup-login.php:319
+msgid "Display this when user logged in."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:324
+#: ocean-popup-login.php:324
+msgid "Display nothing"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:325
+#: ocean-popup-login.php:325
+msgid "Logout link"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:326
+#: ocean-popup-login.php:326
+msgid "Custom"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:346
+#: ocean-popup-login.php:346
+msgid "Custom Text"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:360
+#: build/ocean-popup-login/ocean-popup-login.php:1904
+#: build/ocean-popup-login/ocean-popup-login.php:1953
+#: build/ocean-popup-login/ocean-popup-login.php:2627
+#: ocean-popup-login.php:360
+#: ocean-popup-login.php:1904
+#: ocean-popup-login.php:1953
+#: ocean-popup-login.php:2627
+msgid "Sign in / Join"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:369
+#: ocean-popup-login.php:369
+msgid "Login Text"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:382
+#: build/ocean-popup-login/ocean-popup-login.php:1906
+#: build/ocean-popup-login/ocean-popup-login.php:1954
+#: build/ocean-popup-login/ocean-popup-login.php:2628
+#: ocean-popup-login.php:382
+#: ocean-popup-login.php:1906
+#: ocean-popup-login.php:1954
+#: ocean-popup-login.php:2628
+msgid "Logout"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:390
+#: ocean-popup-login.php:390
+msgid "Logout Text"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:411
+#: ocean-popup-login.php:411
+msgid "Logout URL"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:433
+#: ocean-popup-login.php:433
+msgid "Login Form"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:457
+#: build/ocean-popup-login/ocean-popup-login.php:578
+#: build/ocean-popup-login/ocean-popup-login.php:975
+#: ocean-popup-login.php:457
+#: ocean-popup-login.php:578
+#: ocean-popup-login.php:975
+msgid "Title"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:482
+#: build/ocean-popup-login/ocean-popup-login.php:603
+#: build/ocean-popup-login/ocean-popup-login.php:1000
+#: ocean-popup-login.php:482
+#: ocean-popup-login.php:603
+#: ocean-popup-login.php:1000
+msgid "Content"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:506
+#: ocean-popup-login.php:506
+msgid "Redirect After Login"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:507
+#: ocean-popup-login.php:507
+msgid "Add your URL here if you want to redirect after login."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:531
+#: ocean-popup-login.php:531
+msgid "Hide the Remember Me option?"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:554
+#: ocean-popup-login.php:554
+msgid "Register Form"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:567
+#: build/ocean-popup-login/template/popup.php:38
+#: ocean-popup-login.php:567
+#: template/popup.php:38
+msgid "Create an account"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:592
+#: build/ocean-popup-login/template/popup.php:40
+#: ocean-popup-login.php:592
+#: template/popup.php:40
+msgid "Welcome! Register for an account"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:630
+#: ocean-popup-login.php:630
+msgid "User agreement prompt"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:632
+#: ocean-popup-login.php:632
+msgid "If Require Agreement is checked, new users will be required to check an agreement box in order to complete their registration"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:633
+#: ocean-popup-login.php:633
+msgid "Please publish the Privacy Policy (see Settings -> Privacy) to enable this feature."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:657
+#: ocean-popup-login.php:657
+msgid "Require agreement"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:681
+#: ocean-popup-login.php:681
+msgid "Redirect After Registration"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:682
+#: ocean-popup-login.php:682
+msgid "Add your URL here if you want to redirect after registration."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:705
+#: ocean-popup-login.php:705
+msgid "Security Options"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:728
+#: ocean-popup-login.php:728
+msgid "Enforce Secure Password Usage"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:729
+#: ocean-popup-login.php:729
+msgid "When enabled, users will be opted to use passwords between 8 and 50 characters long."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:753
+#: ocean-popup-login.php:753
+msgid "Passwords must contain digits"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:754
+#: ocean-popup-login.php:754
+msgid "When enabled, users will be forced to insert at least one digit into the password."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:778
+#: ocean-popup-login.php:778
+msgid "Passwords must contain small letters"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:779
+#: ocean-popup-login.php:779
+msgid "When enabled, users will be forced to insert at least one small letter into the password."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:803
+#: ocean-popup-login.php:803
+msgid "Passwords must contain capital letters"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:804
+#: ocean-popup-login.php:804
+msgid "When enabled, users will be forced to insert at least one capital letter into the password."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:828
+#: ocean-popup-login.php:828
+msgid "Passwords must contain symbols"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:829
+#: ocean-popup-login.php:829
+msgid "When enabled, users will be forced to insert at least one special character into the password."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:852
+#: ocean-popup-login.php:852
+msgid "Blocking Options"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:875
+#: ocean-popup-login.php:875
+msgid "Enable Attempts Blocking"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:876
+#: ocean-popup-login.php:876
+msgid "When enabled, users will be blocked if entered invalid credentials several times."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:896
+#: ocean-popup-login.php:896
+msgid "Number of Invalid Attempts"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:922
+#: ocean-popup-login.php:922
+msgid "Minutes to be blocked"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:951
+#: ocean-popup-login.php:951
+msgid "Lost Password Form"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:964
+#: build/ocean-popup-login/template/popup.php:42
+#: ocean-popup-login.php:964
+#: template/popup.php:42
+msgid "Reset password"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:989
+#: build/ocean-popup-login/template/popup.php:44
+#: ocean-popup-login.php:989
+#: template/popup.php:44
+msgid "Recover your password"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1023
+#: ocean-popup-login.php:1023
+msgid "Styling"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1186
+#: ocean-popup-login.php:1186
+msgid "Padding (px)"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1318
+#: ocean-popup-login.php:1318
+msgid "Border Radius (px)"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1360
+#: ocean-popup-login.php:1360
+msgid "Background Image"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1388
+#: ocean-popup-login.php:1388
+msgid "Form Background Color"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1412
+#: ocean-popup-login.php:1412
+msgid "Site Overlay Color"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1436
+#: ocean-popup-login.php:1436
+msgid "Title Color"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1460
+#: ocean-popup-login.php:1460
+msgid "Content Color"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1484
+#: ocean-popup-login.php:1484
+msgid "Input Color"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1508
+#: ocean-popup-login.php:1508
+msgid "Input Border Color"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1532
+#: ocean-popup-login.php:1532
+msgid "Input Border Focus Color"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1556
+#: ocean-popup-login.php:1556
+msgid "Remember Me Color"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1580
+#: ocean-popup-login.php:1580
+msgid "Button Background Color"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1604
+#: ocean-popup-login.php:1604
+msgid "Button Background Color Hover"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1628
+#: ocean-popup-login.php:1628
+msgid "Button Color"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1652
+#: ocean-popup-login.php:1652
+msgid "Forgot Password Color"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1676
+#: ocean-popup-login.php:1676
+msgid "Bottom Background Color"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1700
+#: ocean-popup-login.php:1700
+msgid "Bottom Color"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1724
+#: ocean-popup-login.php:1724
+msgid "Bottom Button Background Color"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1748
+#: ocean-popup-login.php:1748
+msgid "Bottom Button Color"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1771
+#: ocean-popup-login.php:1771
+msgid "Bottom Button Background Color: hover"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1794
+#: ocean-popup-login.php:1794
+msgid "Bottom Button Color: hover"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1816
+#: ocean-popup-login.php:1816
+msgid "Privacy Policy"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1817
+#: ocean-popup-login.php:1817
+msgid "You need to select your Privacy Policy page in Settings > Privacy."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1840
+#: ocean-popup-login.php:1840
+msgid "Color"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:1863
+#: ocean-popup-login.php:1863
+msgid "Color: Hover"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2016
+#: build/ocean-popup-login/ocean-popup-login.php:2114
+#: build/ocean-popup-login/ocean-popup-login.php:2397
+#: ocean-popup-login.php:2016
+#: ocean-popup-login.php:2114
+#: ocean-popup-login.php:2397
+msgid "Session token has expired, please reload the page and try again"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2029
+#: build/ocean-popup-login/ocean-popup-login.php:2410
+#: ocean-popup-login.php:2029
+#: ocean-popup-login.php:2410
+msgid "Please fill all form fields"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2062
+#: ocean-popup-login.php:2062
+msgid "ERROR: Username or password incorrect!"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2073
+#: ocean-popup-login.php:2073
+msgid "Login successful, reloading page..."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2128
+#: build/ocean-popup-login/ocean-popup-login.php:2156
+#: ocean-popup-login.php:2128
+#: ocean-popup-login.php:2156
+msgid "Invalid username"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2142
+#: ocean-popup-login.php:2142
+msgid "Username already taken"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2170
+#: ocean-popup-login.php:2170
+msgid "Invalid email"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2184
+#: ocean-popup-login.php:2184
+msgid "Email address already taken"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2198
+#: ocean-popup-login.php:2198
+msgid "Please enter a password"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2212
+#: ocean-popup-login.php:2212
+msgid "Passwords do not match"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2226
+#: ocean-popup-login.php:2226
+msgid "Password must be between 8 and 50 characters long."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2240
+#: ocean-popup-login.php:2240
+msgid "Password must contain at least one digit."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2254
+#: ocean-popup-login.php:2254
+msgid "Password must contain at least one small letter."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2268
+#: ocean-popup-login.php:2268
+msgid "Password must contain at least one capital letter."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2282
+#: ocean-popup-login.php:2282
+msgid "Password must contain at least one special character."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2296
+#: ocean-popup-login.php:2296
+msgid "Please check the agreement box to continue"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2325
+#: ocean-popup-login.php:2325
+msgid "Error on user creation."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2336
+#: ocean-popup-login.php:2336
+msgid "Hi there,"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2337
+#: ocean-popup-login.php:2337
+msgid "Welcome to %s! Here's how to log in:"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2339
+#: build/ocean-popup-login/ocean-popup-login.php:2515
+#: ocean-popup-login.php:2339
+#: ocean-popup-login.php:2515
+msgid "Username: %s"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2340
+#: ocean-popup-login.php:2340
+msgid "Email: %s"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2341
+#: ocean-popup-login.php:2341
+msgid "Password: The one you entered in the registration form. (For security reason, we save encripted password)"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2342
+#: ocean-popup-login.php:2342
+msgid "If you have any problems, please contact me at %s."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2343
+#: ocean-popup-login.php:2343
+msgid "Thank you!"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2345
+#: ocean-popup-login.php:2345
+msgid "[%s] Your username and password"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2351
+#: ocean-popup-login.php:2351
+msgid "Registration complete, reloading page..."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2442
+#: ocean-popup-login.php:2442
+msgid "Password Reset. Please check your email."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2467
+#: ocean-popup-login.php:2467
+msgid "Please enter a username or e-mail address."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2471
+#: ocean-popup-login.php:2471
+msgid "There is no user registered with that email address."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2483
+#: ocean-popup-login.php:2483
+msgid "Invalid username or e-mail."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2495
+#: ocean-popup-login.php:2495
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2513
+#: ocean-popup-login.php:2513
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2516
+#: ocean-popup-login.php:2516
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2517
+#: ocean-popup-login.php:2517
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2526
+#: ocean-popup-login.php:2526
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: build/ocean-popup-login/ocean-popup-login.php:2531
+#: ocean-popup-login.php:2531
+msgid "The e-mail could not be sent. Possible reason: your host may have disabled the mail() function."
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:80
+#: template/popup.php:80
+msgid "Enter your username to log in"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:81
+#: template/popup.php:81
+msgid "Username"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:87
+#: template/popup.php:87
+msgid "Enter your password to log in"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:88
+#: build/ocean-popup-login/template/popup.php:198
+#: template/popup.php:88
+#: template/popup.php:198
+msgid "Password"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:96
+#: template/popup.php:96
+msgid "Remember Me"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:108
+#: build/ocean-popup-login/template/popup.php:226
+#: template/popup.php:108
+#: template/popup.php:226
+msgid "Loading..."
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:108
+#: build/ocean-popup-login/template/popup.php:318
+#: template/popup.php:108
+#: template/popup.php:318
+msgid "Login"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:113
+#: template/popup.php:113
+msgid "Forgot your password? Get help"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:130
+#: build/ocean-popup-login/template/popup.php:139
+#: template/popup.php:130
+#: template/popup.php:139
+msgid "Or log in with"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:150
+#: template/popup.php:150
+msgid "Not a member?"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:151
+#: template/popup.php:151
+msgid "Sign up"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:184
+#: template/popup.php:184
+msgid "Your username"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:191
+#: template/popup.php:191
+msgid "Your email"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:205
+#: template/popup.php:205
+msgid "Confirm Password"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:226
+#: template/popup.php:226
+msgid "Register"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:240
+#: build/ocean-popup-login/template/popup.php:249
+#: template/popup.php:240
+#: template/popup.php:249
+msgid "Or register with"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:261
+#: template/popup.php:261
+msgid "Already a member?"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:262
+#: template/popup.php:262
+msgid "Sign in"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:290
+#: template/popup.php:290
+msgid "Enter your username or email for password recovery"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:291
+#: template/popup.php:291
+msgid "Username or E-mail"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:298
+#: template/popup.php:298
+msgid "Sending..."
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:298
+#: template/popup.php:298
+msgid "Request Reset Password Link"
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:303
+#: template/popup.php:303
+msgid "A password reset link will be e-mailed to you."
+msgstr ""
+
+#: build/ocean-popup-login/template/popup.php:317
+#: template/popup.php:317
+msgid "Back to"
+msgstr ""
