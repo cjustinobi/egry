@@ -1,0 +1,337 @@
+# Copyright (C) 2023 OceanWP
+# This file is distributed under the same license as the Ocean Pro Demos plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ocean Pro Demos 1.4.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ocean-pro-demos\n"
+"Last-Translator: OceanWP <support@oceanwp.org>\n"
+"Language-Team: OceanWP <support@oceanwp.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-01-10T08:00:50+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: ocean-pro-demos\n"
+
+#. Plugin Name of the plugin
+msgid "Ocean Pro Demos"
+msgstr ""
+
+#. Description of the plugin
+msgid "A premium plugin with powerful and complete options for web designers: import OceanWP Full website templates with all pages and styling; Elementor Sections Library templates; and import images and icons from Freepik."
+msgstr ""
+
+#. Author of the plugin
+msgid "OceanWP"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://oceanwp.org/"
+msgstr ""
+
+#: api-images.php:80
+#: build/ocean-pro-demos/api-images.php:80
+#: build/ocean-pro-demos/classes/integration.php:49
+#: build/ocean-pro-demos/classes/integration.php:50
+#: build/ocean-pro-demos/classes/integration.php:74
+#: classes/integration.php:49
+#: classes/integration.php:50
+#: classes/integration.php:74
+msgid "Ocean Images"
+msgstr ""
+
+#: api-images.php:87
+#: build/ocean-pro-demos/api-images.php:87
+msgid "Downloading image..."
+msgstr ""
+
+#: api-images.php:88
+#: build/ocean-pro-demos/api-images.php:88
+msgid "Loading..."
+msgstr ""
+
+#: api-images.php:89
+#: build/ocean-pro-demos/api-images.php:89
+msgid "Image was added to media library"
+msgstr ""
+
+#: api-images.php:90
+#: build/ocean-pro-demos/api-images.php:90
+msgid "Error"
+msgstr ""
+
+#: api-images.php:91
+#: build/ocean-pro-demos/api-images.php:91
+msgid "Load more"
+msgstr ""
+
+#: api-images.php:97
+#: build/ocean-pro-demos/api-images.php:97
+msgid "There was no response while attempting to the download image to your server. Check your server permission and max file upload size or try again"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/integration.php:80
+#: classes/integration.php:80
+msgid "Enable Ocean Images Module"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/integration.php:85
+#: build/ocean-pro-demos/classes/integration.php:119
+#: build/ocean-pro-demos/classes/integration.php:138
+#: classes/integration.php:85
+#: classes/integration.php:119
+#: classes/integration.php:138
+msgid "Disable"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/integration.php:88
+#: build/ocean-pro-demos/classes/integration.php:122
+#: build/ocean-pro-demos/classes/integration.php:141
+#: classes/integration.php:88
+#: classes/integration.php:122
+#: classes/integration.php:141
+msgid "Enable"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/integration.php:95
+#: classes/integration.php:95
+msgid "Server"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/integration.php:100
+#: build/ocean-pro-demos/includes/themepanel/views/panes/ocean-images-settings.php:36
+#: classes/integration.php:100
+#: includes/themepanel/views/panes/ocean-images-settings.php:36
+msgid "Main"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/integration.php:103
+#: build/ocean-pro-demos/includes/themepanel/views/panes/ocean-images-settings.php:39
+#: classes/integration.php:103
+#: includes/themepanel/views/panes/ocean-images-settings.php:39
+msgid "Alternative"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/integration.php:114
+#: classes/integration.php:114
+msgid "Enable Flaticon"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/integration.php:133
+#: classes/integration.php:133
+msgid "Enable Freepik"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/integration.php:148
+#: classes/integration.php:148
+msgid "Freepik Image Width"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/integration.php:153
+#: classes/integration.php:153
+msgid "Original"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/integration.php:156
+#: classes/integration.php:156
+msgid "500px"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/integration.php:159
+#: classes/integration.php:159
+msgid "800px"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/integration.php:162
+#: classes/integration.php:162
+msgid "1000px"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/integration.php:165
+#: classes/integration.php:165
+msgid "1380px"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/integration.php:168
+#: classes/integration.php:168
+msgid "1600px"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/integration.php:171
+#: classes/integration.php:171
+msgid "2560px"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/integration.php:174
+#: classes/integration.php:174
+msgid "Custom Size"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/integration.php:181
+#: classes/integration.php:181
+msgid "Width Size (px)"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/integration.php:184
+#: classes/integration.php:184
+msgid "Enter image width in pixels"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/routes.php:125
+#: classes/routes.php:125
+msgid "Image successfully uploaded to the media library!"
+msgstr ""
+
+#: build/ocean-pro-demos/classes/routes.php:142
+#: classes/routes.php:142
+msgid "There was an error getting image details from the request, please try again."
+msgstr ""
+
+#: build/ocean-pro-demos/classes/routes.php:199
+#: classes/routes.php:199
+msgid "You do not have sufficient access to upload images with API Images."
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/classes/class-lib-mngr.php:96
+#: elementor-library/classes/class-lib-mngr.php:96
+msgid "No Templates Found"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/classes/class-lib-mngr.php:97
+#: elementor-library/classes/class-lib-mngr.php:97
+msgid "Try a different category or sync for new templates."
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/classes/class-lib-mngr.php:98
+#: elementor-library/classes/class-lib-mngr.php:98
+msgid "No Results Found"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/classes/class-lib-mngr.php:99
+#: elementor-library/classes/class-lib-mngr.php:99
+msgid "Please make sure your search is spelled correctly or try different words."
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/classes/class-lib-mngr.php:141
+#: elementor-library/classes/class-lib-mngr.php:141
+msgid "Post not found."
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/classes/class-lib-mngr.php:164
+#: elementor-library/classes/class-lib-mngr.php:164
+msgid "Post not found"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/classes/class-lib-mngr.php:171
+#: elementor-library/classes/class-lib-mngr.php:171
+msgid "Template ID missing"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/classes/class-lib-src.php:38
+#: elementor-library/classes/class-lib-src.php:38
+msgid "Ocean Library"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/classes/class-lib-src.php:274
+#: elementor-library/classes/class-lib-src.php:274
+msgid "Template does not have any content"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/templates.php:17
+#: elementor-library/templates.php:17
+msgid "Back to Library"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/templates.php:28
+#: build/ocean-pro-demos/elementor-library/templates.php:29
+#: elementor-library/templates.php:28
+#: elementor-library/templates.php:29
+msgid "Desktop view"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/templates.php:32
+#: build/ocean-pro-demos/elementor-library/templates.php:33
+#: elementor-library/templates.php:32
+#: elementor-library/templates.php:33
+msgid "Tab view"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/templates.php:36
+#: build/ocean-pro-demos/elementor-library/templates.php:37
+#: elementor-library/templates.php:36
+#: elementor-library/templates.php:37
+msgid "Mobile view"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/templates.php:43
+#: build/ocean-pro-demos/elementor-library/templates.php:44
+#: elementor-library/templates.php:43
+#: elementor-library/templates.php:44
+msgid "Sync Library"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/templates.php:61
+#: elementor-library/templates.php:61
+msgid "Insert"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/templates.php:68
+#: elementor-library/templates.php:68
+msgid "Get Plus"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/templates.php:82
+#: elementor-library/templates.php:82
+msgid "Loading"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/templates.php:87
+#: elementor-library/templates.php:87
+msgid "You can use it to filter through categories faster or easier"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/templates.php:94
+#: elementor-library/templates.php:94
+msgid "Filter"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/templates.php:108
+#: elementor-library/templates.php:108
+msgid "Search Templates:"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/templates.php:109
+#: elementor-library/templates.php:109
+msgid "Search"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/templates.php:126
+#: elementor-library/templates.php:126
+msgid "Plus"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/templates.php:133
+#: elementor-library/templates.php:133
+msgid "Preview"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/templates.php:145
+#: elementor-library/templates.php:145
+msgid "Want to learn more about the Ocean Elementor Library?"
+msgstr ""
+
+#: build/ocean-pro-demos/elementor-library/templates.php:146
+#: elementor-library/templates.php:146
+msgid "Click here"
+msgstr ""
+
+#: build/ocean-pro-demos/includes/themepanel/views/panes/ocean-images-settings.php:31
+#: includes/themepanel/views/panes/ocean-images-settings.php:31
+msgid "Server*"
+msgstr ""
+
+#: build/ocean-pro-demos/includes/themepanel/views/panes/ocean-images-settings.php:42
+#: includes/themepanel/views/panes/ocean-images-settings.php:42
+msgid "*In case of image or icon import problems and / or errors, switch to the Alternative server for troubleshooting purposes. Otherwise, use the Main server at all times."
+msgstr ""
