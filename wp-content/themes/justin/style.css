@@ -43,6 +43,10 @@ li {
   background: #7DC239;
 }
 
+.app-bg {
+  background: #2A6EC0;
+}
+
 .cap {
   text-transform: uppercase;
 }
@@ -68,10 +72,9 @@ li {
 }
 
 .btn {
+  padding: 8px 20px;
   margin-top: 2vw;
   border: none;
-  width: 15vw;
-  height: 3vw;
   color: #fefefe;
   cursor: pointer;
 }

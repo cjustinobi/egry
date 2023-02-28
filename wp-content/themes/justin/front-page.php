@@ -31,12 +31,27 @@
       width: 50%;
     }
 
+    .mission {
+      padding: 50px;
+    }
+
+    .mission p {
+      width: 50%;
+      margin: 30px auto;
+      color: #fefefe;
+    }
+
     @media (max-width: 767px) {
       .service-areas {
         display: block;
       }
+      .health-safety div {
+        width: 100%;
+      }
     }
   </style>
+
+  <?php get_template_part( 'template-parts/content/slider' ); ?>
 
   <div class="px">
     <h1 class="center cap">our service areas</h1>
@@ -102,6 +117,13 @@
       </p>
       <button class="btn accent-bg">Learn More</button>
     </div>
+  </div>
+
+  <div class="app-bg mission">
+    <p class="center">
+      ‘’Our future rests on our people. We are passionate in seeing our professional staff grow
+      into highly-skilled and experienced men and women.’’
+    </p>
   </div>
 
   <?php
