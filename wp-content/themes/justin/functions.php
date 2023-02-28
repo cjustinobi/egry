@@ -50,7 +50,8 @@ add_action('wp_enqueue_scripts', 'africinnovate_register_styles');
 
   function africinnovate_theme_styles() {
 //    if(get_queried_object_id() == 97){
-      wp_enqueue_style( 'my-styles', get_template_directory_uri() . '/assets/css/home.css');
+//      wp_enqueue_style( 'my-styles', get_template_directory_uri() . '/assets/css/home.css');
+    wp_enqueue_style( 'montserrat-font', 'https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
 //    }
   }
 

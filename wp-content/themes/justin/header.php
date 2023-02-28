@@ -4,6 +4,95 @@
   <?php
     wp_head();
   ?>
+  <style>
+
+
+    header {
+      background: #fefefe;
+    }
+
+    .top-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid grey;
+    }
+
+    .top-header-right {
+      display: flex;
+      align-items: center;
+    }
+
+    .top-header-right > * {
+      margin: 0 10px;
+    }
+
+    .menu-container {
+      display: flex;
+      padding: 10px 60px;
+    }
+
+    .sidebar-container {
+      display: none;
+    }
+
+    .menu-container li {
+      font-weight: 700;
+      text-transform: uppercase;
+      margin: 0 20px;
+    }
+
+    .sidebar-menu-container li {
+      color: #fefefe;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin: 20px;
+    }
+
+
+    .toggle-menu {
+      display: none;
+    }
+
+    @media (max-width: 768px) {
+      .logo {
+        width: 160px;
+      }
+
+      .menu-container {
+        display: none;
+      }
+
+      .toggle-menu {
+        display: flex;
+        justify-content: right;
+        cursor: pointer;
+      }
+
+      .sidebar-container {
+        display: none;
+        background: grey;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        z-index: 99999;
+        padding-top: 60px;
+        overflow: hidden;
+      }
+
+      .sidebar-container.show {
+        display: block;
+      }
+    }
+
+    @media (max-width: 466px) {
+      .top-header-right img {
+        display: none;
+      }
+    }
+
+  </style>
 </head>
 <body>
 <header>
@@ -13,7 +102,7 @@
     $logo = wp_get_attachment_image_src($customLogoId);
   ?>
 
-  <div class="top-header">
+  <div class="px py-5 top-header">
     <img class="logo" src="<?php echo $logo[0] ?>" alt="egry logo">
     <div class="top-header-right">
       <img src="<?php echo wp_get_attachment_image_src(27)[0]; ?>" alt="egry socials">

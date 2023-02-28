@@ -12,6 +12,22 @@ Author URI: https://africinnovate.com
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+h1 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-weight: 500;
+}
+
+p {
+  margin: 14px 0;
+  font-weight: 500;
 }
 
 a {
@@ -22,81 +38,25 @@ li {
   list-style: none;
 }
 
-.logo {
-  width: 70px;
-}
-
-header {
-
-}
-
-.top-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid grey;
-}
-
-.top-header-right {
-  display: flex;
-  align-items: center;
-}
-
-.top-header-right > * {
-  margin: 0 10px;
-}
-
-.menu-container {
-  display: flex;
-}
-
-.sidebar-container {
-  display: none;
-}
-
-.menu-container li {
-  font-weight: 700;
+.cap {
   text-transform: uppercase;
-  margin: 0 20px;
 }
 
-.sidebar-menu-container li {
-  color: #fefefe;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin: 20px;
+.center {
+  text-align: center;
 }
 
-
-.toggle-menu {
-  display: none;
+.py-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-@media (max-width: 768px) {
-  .menu-container {
-    display: none;
-  }
+.px {
+  padding-right: 5vw;
+  padding-left: 5vw;
+  /*padding: calc(30px + 1.5625vw)*/
+}
 
-  .toggle-menu {
-    display: flex;
-    justify-content: right;
-    cursor: pointer;
-  }
+@media (max-width: 767px) {
 
-  .sidebar-container {
-    display: none;
-    background: grey;
-    position: fixed;
-    left: 0;
-    /*width: 0;*/
-    top: 0;
-    height: 100vh;
-    z-index: 99999;
-    padding-top: 60px;
-    overflow: hidden;
-  }
-
-  .sidebar-container.show {
-    display: block;
-  }
 }
