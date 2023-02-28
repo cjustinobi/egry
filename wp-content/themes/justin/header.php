@@ -29,7 +29,7 @@
 
     .menu-container {
       display: flex;
-      padding: 10px 60px;
+      padding: 10px 30px;
     }
 
     .sidebar-container {
@@ -53,6 +53,77 @@
     .toggle-menu {
       display: none;
     }
+
+    .menu-container ul {
+      min-width: 150px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      position: absolute;
+      top: -999em;
+      left: -999em;
+    }
+
+    .menu-container li {
+      display: inline-block;
+      position: relative;
+      text-align: left;
+    }
+
+    .menu-container li.focus > ul,
+    .menu-container li:hover > ul {
+      top: auto;
+      left: auto;
+    }
+
+    .menu-container li li {
+      display: block;
+    }
+
+    .menu-container li li.focus > ul,
+    .menu-container li li:hover > ul {
+      left: 100%;
+      top: 0;
+    }
+
+    .menu-container a {
+      color: #515151;
+      text-decoration: none;
+      display: block;
+      white-space: nowrap;
+      padding: 10px 15px;
+    }
+
+    .menu-container a:hover,
+    .menu-container li:hover > a,
+    .menu-container li.focus > a,
+    .menu-container .current-menu-item > a,
+    .menu-container .current-menu-ancestor > a {
+      color: #7DC239;
+    }
+
+    .menu-container .menu-item-has-children > a::before {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      border: 4px solid transparent;
+      border-top-color: currentColor;
+    }
+
+    .menu-container ul .menu-item-has-children > a::before {
+      right: 2px;
+      border-top-color: transparent;
+      border-left-color: currentColor;
+    }
+
+    .menu-container ul {
+      background-color: #fefefe;
+    }
+
+
+
 
     @media (max-width: 768px) {
       .logo {

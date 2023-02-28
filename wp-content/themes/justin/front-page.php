@@ -22,6 +22,15 @@
       font-weight: 100;
     }
 
+    .health-safety {
+      background: #fefefe;
+      margin-top: 100px;
+    }
+
+    .health-safety div {
+      width: 50%;
+    }
+
     @media (max-width: 767px) {
       .service-areas {
         display: block;
@@ -80,6 +89,18 @@
           Adipisci doloremque ex iste labore officia perspiciatis sint soluta suscipit.
         </p>
       </div>
+    </div>
+  </div>
+
+  <div class="px py-20 health-safety">
+    <div>
+      <h1>Health, Safety and Environment</h1>
+      <p>
+        Egry endeavors to educate local communities affected or adjacent to work
+        areas to give full assurance that ongoing work is being sympathetically
+        undertaken and that local customs and habitats will be enhanced by the work.
+      </p>
+      <button class="btn accent-bg">Learn More</button>
     </div>
   </div>
 

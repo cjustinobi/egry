@@ -28,6 +28,7 @@ h1 {
 p {
   margin: 14px 0;
   font-weight: 500;
+  font-size: 14px;
 }
 
 a {
@@ -36,6 +37,10 @@ a {
 
 li {
   list-style: none;
+}
+
+.accent-bg {
+  background: #7DC239;
 }
 
 .cap {
@@ -51,11 +56,27 @@ li {
   padding-bottom: 5px;
 }
 
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .px {
   padding-right: 5vw;
   padding-left: 5vw;
   /*padding: calc(30px + 1.5625vw)*/
 }
+
+.btn {
+  margin-top: 2vw;
+  border: none;
+  width: 15vw;
+  height: 3vw;
+  color: #fefefe;
+  cursor: pointer;
+}
+
+
 
 @media (max-width: 767px) {
 
