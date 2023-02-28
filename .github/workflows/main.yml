@@ -20,7 +20,7 @@ jobs:
           server-dir: /public_html/egry/
 
       - name: Change directory permissions
-        run: sudo chmod -R 755 ./egry
+        run: sudo chmod -R 755 ./
 
       - name: Configure Database
         run: |
