@@ -19,7 +19,7 @@ jobs:
           password: ${{ secrets.EGRY_PASSWORD }}
           server-dir: /public_html/egry/
 
-      - name: Configure WordPress
+      - name: Configure Database
         run: |
-          cp egry/wp-config-sample.php wordpress/wp-config.php
+          cp egry/wp-config-sample.php egry/wp-config.php
 
