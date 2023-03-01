@@ -107,6 +107,14 @@
          font-weight: 500;
          font-size: 14px;
        }
+
+       .text p {
+         font-size: 10px;
+       }
+
+       .text button {
+         display: none;
+       }
      }
   </style>
 

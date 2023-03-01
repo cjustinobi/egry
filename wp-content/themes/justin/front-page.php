@@ -7,6 +7,27 @@
       grid-gap: 3rem;
     }
 
+    .products {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 2rem;
+      justify-items: auto;
+    }
+
+    .products-detail {
+      background: #18467E;
+      padding: 6px 12px;
+      color: #fefefe;
+    }
+
+    .product {
+      background: #fefefe;
+    }
+
+    .product img {
+      height: 200px;
+    }
+
     .service-areas div {
       border-top: 2px solid #18467E;
       background: #fefefe;
@@ -41,12 +62,36 @@
       color: #fefefe;
     }
 
+    .partners {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 3rem;
+
+    }
+
+    .partners-container {
+      background: #fefefe;
+      padding-top: 60px;
+      padding-bottom: 60px;
+      margin-top: 60px;
+    }
+
     @media (max-width: 767px) {
-      .service-areas {
+      .service-areas, .products, .partners {
         display: block;
       }
       .health-safety div {
         width: 100%;
+      }
+      .partner-heading {
+        font-size: 24px;
+      }
+      .mission {
+       padding: 10px;
+      }
+
+      .mission p {
+        width: 90%;
       }
     }
   </style>
@@ -92,7 +137,7 @@
         <img src="<?php echo wp_get_attachment_image_src(43)[0]; ?>" alt="egry socials">
         <p>Geological, Mining and Metallurgical</p>
         <p class="service-areas-detail">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum nulla, quisquam.
+          Lorem ipsum dolor spartners-containerit amet, consectetur adipisicing elit. Harum nulla, quisquam.
           Adipisci doloremque ex iste labore officia perspiciatis sint soluta suscipit.
         </p>
       </div>
@@ -124,6 +169,58 @@
       ‘’Our future rests on our people. We are passionate in seeing our professional staff grow
       into highly-skilled and experienced men and women.’’
     </p>
+  </div>
+
+  <div class="px">
+    <h1 class="center cap">Our Products</h1>
+    <div class="products">
+      <div class="product">
+        <img src="<?php echo wp_get_attachment_image_src(64)[0]; ?>" alt="egry socials">
+        <div class="products-detail">
+          <p>DU-8200 Single Beam UV/VIS <br> Spectrophotometer</p>
+        </div>
+      </div>
+      <div class="product">
+        <img src="<?php echo wp_get_attachment_image_src(65)[0]; ?>" alt="egry socials">
+        <div class="products-detail">
+          <p>PM5000 Patient <br> Monitor</p>
+        </div>
+      </div>
+      <div class="product">
+        <img src="<?php echo wp_get_attachment_image_src(66)[0]; ?>" alt="egry socials">
+        <div class="products-detail">
+          <p>DigiPol Automatic <br> Polarimeter</p>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="<?php echo wp_get_attachment_image_src(67)[0]; ?>" alt="egry socials">
+        <div class="products-detail">
+          <p>GC1290 Gas Chromatography <br> (LCD Touch Screen)</p>
+        </div>
+      </div>
+      <div class="product">
+        <img src="<?php echo wp_get_attachment_image_src(68)[0]; ?>" alt="egry socials">
+        <div class="products-detail">
+          <p>WJ-2 Series CO2 Incubator <br> (Chamber Volume: 80L/160L)</p>
+        </div>
+      </div>
+      <div class="product">
+        <img src="<?php echo wp_get_attachment_image_src(69)[0]; ?>" alt="egry socials">
+        <div class="products-detail">
+          <p>High & Low Speed Refrigerated <br> Centrifuge TDL-5/6M/MC</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="px partners-container">
+    <h1 class="center partner-heading">Meet our Partners</h1>
+    <div class="partners">
+      <img src="<?php echo wp_get_attachment_image_src(72)[0]; ?>" alt="egry socials">
+      <img src="<?php echo wp_get_attachment_image_src(71)[0]; ?>" alt="egry socials">
+      <img src="<?php echo wp_get_attachment_image_src(70)[0]; ?>" alt="egry socials">
+    </div>
   </div>
 
   <?php
