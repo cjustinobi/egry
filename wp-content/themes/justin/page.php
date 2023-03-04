@@ -1,18 +1,16 @@
 
 
-<?php
+<?php get_header(); ?>
 
-  get_header();
+<div class="px">
+  <?php
 
-  dynamic_sidebar('africside');
+    while ( have_posts() ) {
+      the_post();
+      get_template_part( 'template-parts/content/content-page' );
+    }
 
-  /* Start the Loop */
-  while ( have_posts() ) {
-    the_post();
-    get_template_part( 'template-parts/content/content-page' );
-  }
+  ?>
+</div>
 
-
-
-
-  get_footer();
+<?php get_footer(); ?>
