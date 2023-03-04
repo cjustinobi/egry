@@ -223,7 +223,8 @@
     </div>
   </div>
 
-  <?php
+
+<?php
 
   /* Start the Loop */
   while ( have_posts() ) :

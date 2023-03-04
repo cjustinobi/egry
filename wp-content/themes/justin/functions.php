@@ -68,3 +68,18 @@ add_action('wp_enqueue_scripts', 'africinnovate_register_styles');
   }
 
   add_action('widgets_init', 'africinnovate_widget_areas');
+
+//  function africinnovate_custom_post_type() {
+//    $args = array(
+//      'labels' => array(
+//        'name' => __( 'Products' ),
+//        'singular_name' => __( 'Product' )
+//      ),
+//      'public' => true,
+//      'has_archive' => true,
+//      'rewrite' => array('slug' => 'products'),
+//      'supports' => array('title', 'editor', 'thumbnail')
+//    );
+//    register_post_type( 'products', $args );
+//  }
+//  add_action( 'init', 'africinnovate_custom_post_type' );
