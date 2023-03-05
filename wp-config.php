@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'egry' );
 
 /** Database username */
-define( 'DB_USER', 'omg' );
+define( 'DB_USER', 'Kanex' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'mboti1Dem' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
