@@ -19,14 +19,14 @@
  */
 
 // ** Database settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
+/** The name of the database~ for WordPress */
 define( 'DB_NAME', 'egry' );
 
 /** Database username */
-define( 'DB_USER', 'Kanex' );
+define( 'DB_USER', 'omg' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'mboti1Dem' );
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
