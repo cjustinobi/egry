@@ -71,6 +71,10 @@ li {
   /*padding: calc(30px + 1.5625vw)*/
 }
 
+.mt {
+  margin-top: 20px;
+}
+
 .btn {
   padding: 8px 20px;
   margin-top: 2vw;

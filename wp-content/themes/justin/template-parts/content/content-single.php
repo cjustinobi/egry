@@ -4,23 +4,20 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
  */
 
 ?>
-		<?php
-            the_date();
-            the_tags();
-            comments_number();
-		the_content();
 
-comments_template();
+<div class="px mt">
+  <h2><?php the_title(); ?></h2>
+  <img src="<?php echo the_post_thumbnail_url('thumbnail'); ?>" alt="">
+  <p><?php the_content(); ?></p>
+</div>
+		<?php
+//            the_date();
+//            the_tags();
+//            comments_number();
+//comments_template();
 		?>
 
-
-<!--	--><?php //if ( ! is_singular( 'attachment' ) ) : ?>
-<!--		--><?php //get_template_part( 'template-parts/post/author-bio' ); ?>
-<!--	--><?php //endif; ?>
 
