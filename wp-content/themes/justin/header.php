@@ -5,8 +5,6 @@
     wp_head();
   ?>
   <style>
-
-
     header {
       background: #fefefe;
     }
@@ -27,103 +25,9 @@
       margin: 0 10px;
     }
 
-    .menu-container {
-      display: flex;
-      padding: 10px 30px;
+    #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item-has-children > a.mega-menu-link > span.mega-indicator {
+      display: inline;
     }
-
-    .sidebar-container {
-      display: none;
-    }
-
-    .menu-container li {
-      font-weight: 700;
-      text-transform: uppercase;
-      margin: 0 20px;
-    }
-
-    .sidebar-menu-container li {
-      color: #fefefe;
-      font-weight: 700;
-      text-transform: uppercase;
-      margin: 20px;
-    }
-
-
-    .toggle-menu {
-      display: none;
-    }
-
-    .menu-container ul {
-      min-width: 150px;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      position: absolute;
-      top: -999em;
-      left: -999em;
-    }
-
-    .menu-container li {
-      display: inline-block;
-      position: relative;
-      text-align: left;
-    }
-
-    .menu-container li.focus > ul,
-    .menu-container li:hover > ul {
-      top: auto;
-      left: auto;
-    }
-
-    .menu-container li li {
-      display: block;
-    }
-
-    .menu-container li li.focus > ul,
-    .menu-container li li:hover > ul {
-      left: 100%;
-      top: 0;
-    }
-
-    .menu-container a {
-      color: #515151;
-      text-decoration: none;
-      display: block;
-      white-space: nowrap;
-      padding: 10px 15px;
-    }
-
-    .menu-container a:hover,
-    .menu-container li:hover > a,
-    .menu-container li.focus > a,
-    .menu-container .current-menu-item > a,
-    .menu-container .current-menu-ancestor > a {
-      color: #7DC239;
-    }
-
-    .menu-container .menu-item-has-children > a::before {
-      content: "";
-      position: absolute;
-      right: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      border: 4px solid transparent;
-      border-top-color: currentColor;
-    }
-
-    .menu-container ul .menu-item-has-children > a::before {
-      right: 2px;
-      border-top-color: transparent;
-      border-left-color: currentColor;
-    }
-
-    .menu-container ul {
-      background-color: #fefefe;
-    }
-
-
-
 
     @media (max-width: 768px) {
       .logo {
@@ -133,32 +37,16 @@
       .menu-container {
         display: none;
       }
-
-      .toggle-menu {
-        display: flex;
-        justify-content: right;
-        cursor: pointer;
-      }
-
-      .sidebar-container {
-        display: none;
-        background: grey;
-        position: fixed;
-        left: 0;
-        top: 0;
-        height: 100vh;
-        z-index: 99999;
-        padding-top: 60px;
-        overflow: hidden;
-      }
-
-      .sidebar-container.show {
-        display: block;
-      }
     }
 
     @media (max-width: 466px) {
       .top-header-right img {
+        display: none;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .mobile-menu {
         display: none;
       }
     }
@@ -179,37 +67,44 @@
       <img src="<?php echo wp_get_attachment_image_src(27)[0]; ?>" alt="egry socials">
       <img src="<?php echo wp_get_attachment_image_src(28)[0]; ?>" alt="egry socials">
       <img src="<?php echo wp_get_attachment_image_src(29)[0]; ?>" alt="egry socials">
-      <div class="toggle-menu">
-        &#9776;
+      <div class="mobile-menu">
+        <?php
+          wp_nav_menu(array(
+            'theme_location' => 'primary', // replace with the name of your menu location
+            'menu_class' => 'mobile-menu', // specify the CSS class for the menu
+//     'walker' => new Max_Mega_Menu_Walker(), // specify the Max Mega Menu walker
+            'echo' => true, // whether to display the menu or return it as a string
+            'fallback_cb' => false, // whether to display a fallback menu if the location doesn't exist
+            'menu_id' => '', // specify the ID for the menu
+            'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>', // specify the HTML wrapper for the menu items
+            'depth' => 0, // specify the depth of the menu
+            'max_mega_menu' => 'true', // enable Max Mega Menu for this menu
+          ));
+
+        ?>
       </div>
     </div>
 
   </div>
 
-  <?php wp_nav_menu([
-    'menu' => 'primary',
-    'container' => '',
-    'theme_location' => 'primary',
-    'items_wrap' => '<ul class="menu-container">%3$s</ul>'
-  ]) ?>
-
-
-
-    <div class="sidebar-container">
-      <?php get_template_part( 'template-parts/sidebar/sidebar-navigation' ); ?>
-
-
-<!--      <p>Blog title --><?php //echo get_bloginfo('title') ?><!-- </p>-->
-<!--      <h5>--><?php //the_title(); ?><!--</h5>-->
-    </div>
+  <div class="menu-container"><?php wp_nav_menu([
+      'menu' => 'primary',
+      'container' => '',
+      'theme_location' => 'primary',
+      'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>'
+    ]) ?></div>
 
 </header>
 
 <script>
-  const toggleMenu = document.querySelector('.toggle-menu');
-  const menuContainer = document.querySelector('.sidebar-container');
 
-  toggleMenu.addEventListener('click', () => {
-    menuContainer.classList.toggle('show');
-  });
+  window.onload = () => {
+    let menuItems = document.querySelectorAll('.mega-menu-item-has-children')
+
+    for (let i = 0; i < menuItems.length; i++) {
+      menuItems[i].addEventListener('click', function(e) {
+        e.preventDefault()
+      })
+    }
+  }
 </script>
