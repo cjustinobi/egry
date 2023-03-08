@@ -13,11 +13,5 @@
   <img src="<?php echo the_post_thumbnail_url('thumbnail'); ?>" alt="">
   <p><?php the_content(); ?></p>
 </div>
-		<?php
-//            the_date();
-//            the_tags();
-//            comments_number();
-//comments_template();
-		?>
 
 
