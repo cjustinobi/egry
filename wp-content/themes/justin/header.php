@@ -103,7 +103,7 @@
 
     for (let i = 0; i < menuItems.length; i++) {
       menuItems[i].addEventListener('click', function(e) {
-        e.preventDefault()
+        // e.preventDefault()
       })
     }
   }
