@@ -98,13 +98,13 @@
 
 <script>
 
-  window.onload = () => {
-    let menuItems = document.querySelectorAll('.mega-menu-item-has-children')
-
-    for (let i = 0; i < menuItems.length; i++) {
-      menuItems[i].addEventListener('click', function(e) {
-        e.preventDefault()
-      })
-    }
-  }
+  // window.onload = () => {
+  //   let menuItems = document.querySelectorAll('.mega-menu-item-has-children')
+  //
+  //   for (let i = 0; i < menuItems.length; i++) {
+  //     menuItems[i].addEventListener('click', function(e) {
+  //       e.preventDefault()
+  //     })
+  //   }
+  // }
 </script>
