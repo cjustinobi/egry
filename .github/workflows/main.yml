@@ -14,10 +14,10 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          server: ftp.africinnovate.xyz
+          server: ftp.egryengineering.com
           username: ${{ secrets.EGRY_USERNAME }}
           password: ${{ secrets.EGRY_PASSWORD }}
-          server-dir: /public_html/egry/
+          server-dir: /public_html/
 
       - name: Configure Database
         run: |
