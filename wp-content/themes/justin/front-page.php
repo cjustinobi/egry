@@ -104,50 +104,26 @@
       <div>
         <img src="<?php echo wp_get_attachment_image_src(46)[0]; ?>" alt="egry socials">
         <p>Petrochemical</p>
-        <p class="service-areas-detail">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum nulla, quisquam.
-          Adipisci doloremque ex iste labore officia perspiciatis sint soluta suscipit.
-        </p>
       </div>
       <div>
         <img src="<?php echo wp_get_attachment_image_src(45)[0]; ?>" alt="egry socials">
         <p>Clinical Diagnostics & Pharmaceuticals</p>
-        <p class="service-areas-detail">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum nulla, quisquam.
-          Adipisci doloremque ex iste labore officia perspiciatis sint soluta suscipit.
-        </p>
       </div>
       <div>
         <img src="<?php echo wp_get_attachment_image_src(41)[0]; ?>" alt="egry socials">
         <p>Food, Safety  & Agriculture</p>
-        <p class="service-areas-detail">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum nulla, quisquam.
-          Adipisci doloremque ex iste labore officia perspiciatis sint soluta suscipit.
-        </p>
       </div>
       <div>
         <img src="<?php echo wp_get_attachment_image_src(42)[0]; ?>" alt="egry socials">
         <p>Environmental Monitoring</p>
-        <p class="service-areas-detail">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum nulla, quisquam.
-          Adipisci doloremque ex iste labore officia perspiciatis sint soluta suscipit.
-        </p>
       </div>
       <div>
         <img src="<?php echo wp_get_attachment_image_src(43)[0]; ?>" alt="egry socials">
         <p>Geological, Mining and Metallurgical</p>
-        <p class="service-areas-detail">
-          Lorem ipsum dolor spartners-containerit amet, consectetur adipisicing elit. Harum nulla, quisquam.
-          Adipisci doloremque ex iste labore officia perspiciatis sint soluta suscipit.
-        </p>
       </div>
       <div>
         <img src="<?php echo wp_get_attachment_image_src(44)[0]; ?>" alt="egry socials">
         <p>Education and Academic Research</p>
-        <p class="service-areas-detail">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum nulla, quisquam.
-          Adipisci doloremque ex iste labore officia perspiciatis sint soluta suscipit.
-        </p>
       </div>
     </div>
   </div>
