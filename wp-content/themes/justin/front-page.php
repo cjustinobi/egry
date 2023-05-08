@@ -196,6 +196,9 @@
       <img src="<?php echo wp_get_attachment_image_src(72)[0]; ?>" alt="egry socials">
       <img src="<?php echo wp_get_attachment_image_src(71)[0]; ?>" alt="egry socials">
       <img src="<?php echo wp_get_attachment_image_src(70)[0]; ?>" alt="egry socials">
+      <img src="<?php echo wp_get_attachment_image_src(574)[0]; ?>" alt="egry socials">
+      <img src="<?php echo wp_get_attachment_image_src(575)[0]; ?>" alt="egry socials">
+      <img src="<?php echo wp_get_attachment_image_src(576)[0]; ?>" alt="egry socials">
     </div>
   </div>
 

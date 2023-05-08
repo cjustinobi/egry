@@ -127,11 +127,11 @@
         <div class="text">
           <h1>INSTRUMENT SALES, CALIBRATION AND REPAIR SERVICES</h1>
           <p>
-            We want to provide top quality chemical analysis solutions and laboratory
+            We provide top quality chemical analysis solutions and laboratory
             instrumentation coupled with excellent pre-sales and after-sales
             technical support services on a multi-instrument and multi-vendor platform.
           </p>
-          <button class="btn accent-bg">Contact Us</button>
+          <button onclick="location.href='<?php echo esc_url( get_permalink( get_page_by_title( 'Contact Us' ) ) ); ?>';" class="btn accent-bg">Contact Us</button>
         </div>
       </div>
 
