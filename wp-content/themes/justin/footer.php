@@ -34,7 +34,7 @@
   ?>
 
   <div class="px footer-top">
-    <img width="150px" class="logo" src="<?php echo $logo[0] ?>" alt="egry logo">
+    <img class="logo" src="<?php echo $logo[0] ?>" alt="egry logo">
 
     <?php
       wp_nav_menu([
