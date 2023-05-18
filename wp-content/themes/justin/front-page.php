@@ -3,7 +3,7 @@
   <style>
     .service-areas {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
       grid-gap: 3rem;
     }
 
@@ -102,29 +102,46 @@
     <h1 class="center cap">our service areas</h1>
     <div class="service-areas">
       <div>
-        <img src="<?php echo wp_get_attachment_image_src(46)[0]; ?>" alt="egry socials">
-        <p>Petrochemical</p>
+        <p>
+          Supply of sophisticated and software driven chemical analytical equipment such as Gas
+          Chromatographs, High Performance Liquid Chromatographs, Atomic Absorption Spectrometers,
+          Fourier Transform Infra-red Spectrometers, Reid Vapor Pressure Testers, florescence x-ray
+          Analyzers, Pour Point Analyzer, Dew Point Analyzer  flash Point Testers, Heating, Ventilation,
+          Air-Filtration & Purification, Air-conditioning and Refrigeration Systems, Calibration Benches, Etc.
+        </p>
       </div>
       <div>
-        <img src="<?php echo wp_get_attachment_image_src(45)[0]; ?>" alt="egry socials">
-        <p>Clinical Diagnostics & Pharmaceuticals</p>
+        <p>
+          Process Instruments, Parametric Ultrasonic Flare gas mass flow meter Lab/Analytical Instruments. Laboratory/
+          Analytical Systems and Components for Research and  Industry,  Environmental Test Equipment,  Electrical and
+          Electronic Test Equipment, Viscosity Meter, Acoustic Instruments, Specialty Equipment, Hi-Tech Detection Systems,
+          Calibration Instruments, Marine, Medical, Surveying/ Geophysical, Weather Instruments/ Radiometers.
+        </p>
       </div>
-      <div>
-        <img src="<?php echo wp_get_attachment_image_src(41)[0]; ?>" alt="egry socials">
-        <p>Food, Safety  & Agriculture</p>
-      </div>
-      <div>
-        <img src="<?php echo wp_get_attachment_image_src(42)[0]; ?>" alt="egry socials">
-        <p>Environmental Monitoring</p>
-      </div>
-      <div>
-        <img src="<?php echo wp_get_attachment_image_src(43)[0]; ?>" alt="egry socials">
-        <p>Geological, Mining and Metallurgical</p>
-      </div>
-      <div>
-        <img src="<?php echo wp_get_attachment_image_src(44)[0]; ?>" alt="egry socials">
-        <p>Education and Academic Research</p>
-      </div>
+<!--      <div>-->
+<!--        <img src="--><?php //echo wp_get_attachment_image_src(46)[0]; ?><!--" alt="egry socials">-->
+<!--        <p>Petrochemical</p>-->
+<!--      </div>-->
+<!--      <div>-->
+<!--        <img src="--><?php //echo wp_get_attachment_image_src(45)[0]; ?><!--" alt="egry socials">-->
+<!--        <p>Clinical Diagnostics & Pharmaceuticals</p>-->
+<!--      </div>-->
+<!--      <div>-->
+<!--        <img src="--><?php //echo wp_get_attachment_image_src(41)[0]; ?><!--" alt="egry socials">-->
+<!--        <p>Food, Safety  & Agriculture</p>-->
+<!--      </div>-->
+<!--      <div>-->
+<!--        <img src="--><?php //echo wp_get_attachment_image_src(42)[0]; ?><!--" alt="egry socials">-->
+<!--        <p>Environmental Monitoring</p>-->
+<!--      </div>-->
+<!--      <div>-->
+<!--        <img src="--><?php //echo wp_get_attachment_image_src(43)[0]; ?><!--" alt="egry socials">-->
+<!--        <p>Geological, Mining and Metallurgical</p>-->
+<!--      </div>-->
+<!--      <div>-->
+<!--        <img src="--><?php //echo wp_get_attachment_image_src(44)[0]; ?><!--" alt="egry socials">-->
+<!--        <p>Education and Academic Research</p>-->
+<!--      </div>-->
     </div>
   </div>
 
