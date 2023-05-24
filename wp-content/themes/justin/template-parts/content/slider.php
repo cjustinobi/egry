@@ -134,7 +134,12 @@
           <button onclick="location.href='<?php echo esc_url( get_permalink( get_page_by_title( 'Contact Us' ) ) ); ?>';" class="btn accent-bg">Contact Us</button>
         </div>
       </div>
-
+      <div class="mySlides fade">
+        <img src="<?php echo wp_get_attachment_image_src(579)[0]; ?>" width="100%" alt="egry socials">
+      </div>
+      <div class="mySlides fade">
+        <img src="<?php echo wp_get_attachment_image_src(578)[0]; ?>" width="100%" alt="egry socials">
+      </div>
 
       <a class="prev" onclick="plusSlides(-1)">❮</a>
       <a class="next" onclick="plusSlides(1)">❯</a>
